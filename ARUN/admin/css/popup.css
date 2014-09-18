@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color:#CCC;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.clearL {
+	clear:left;
+}
+.clearR {
+	clear:right;
+}
+.red {
+	color:#F00;
+}
+.green {
+	color:#090;
+}
+.frmText {
+	display:block;
+	padding:5px;
+	border:solid 1px #172732;
+	width:300px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.frmTextArea {
+	display:block;
+	border:solid 1px #172732;
+	width:310px;
+	height:50px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.frmSelect {
+	display:block;
+	border:solid 1px #172732;
+	width:310px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.frmSubmit {
+	display:block;
+	text-align:center;
+	padding:8px 12px;
+	border:solid 1px #CCC;
+	background-image:url(../images/button_bg1.jpg);
+	background-repeat:repeat-x;
+	cursor:pointer;
+	font-size:14px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.frmSubmit:hover {
+	background-image:url(../images/button_bg2.jpg);
+	color:#FFF;
+}
+.frmSubmit:active {
+	background-image:url(../images/button_bg3.jpg);
+	color:#FFF;
+}
+#popup {
+	margin:10px;
+	padding:10px;
+	background-color:#FFF;
+	border:solid 1px #172732;
+}
+#popup .sMsg {
+	margin-bottom:10px;
+}
